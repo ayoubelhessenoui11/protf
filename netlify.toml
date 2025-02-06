@@ -1,6 +1,10 @@
 [build]
-  command = "CI=false npm install --legacy-peer-deps && npm run build"
+  command = "CI=false DISABLE_ESLINT_PLUGIN=true npm install --legacy-peer-deps && npm run build"
   publish = "build"
+
+[build.environment]
+  NODE_VERSION = "18.16.0"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 [[redirects]]
   from = "/*"
