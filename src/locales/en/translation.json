@@ -1,0 +1,39 @@
+{
+  "greeting": "Hi, I'm",
+  "role": "Mobile Developer",
+  "description": "🔹 Design & Development\nCreating high-performance and intuitive mobile applications\nExpertise in native and cross-platform development\nAPI integration, databases and performance management\n\n🔹 Experience & Skills\nMobile development with Flutter, Android & iOS\nSecure backend & APIs, real-time management\nUX/UI design & prototyping with Figma\n\n🔹 Reputation & Client Feedback\nFreelancing since 2022 with excellent client reviews\nCheck out my reviews and completed projects on Upwork\n\n🔹 App Marketing & Publishing\nApplication optimization and monetization\nAdvertising and user acquisition\nPublication on Google Play and App Store\n\n🎯 Need a custom application? Contact me!",
+  "buttons": {
+    "projects": "View my projects",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "upwork": "Upwork"
+  },
+  "skills": {
+    "mobile": "Mobile Technologies",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Tools & Design",
+    "languages": "Core Languages",
+    "frameworks": "Frameworks",
+    "databases": "Databases",
+    "marketing": "Digital Marketing",
+    "apis": "APIs & Integrations"
+  },
+  "skillsets": {
+    "mobile": ["Flutter", "Android Native", "Kotlin", "Java", "Swift", "Dart", "XML"],
+    "backend": ["PHP", "Laravel", "Node.js", "Python"],
+    "frontend": ["HTML5", "CSS3", "JavaScript", "React"],
+    "databases": ["SQLite", "Room Database", "Firebase", "MySQL"],
+    "apis": ["Retrofit", "Volley", "REST APIs"],
+    "tools": ["Figma", "Git", "UML", "Agile"],
+    "marketing": ["Google Ads", "App Store", "Play Store"]
+  },
+  "projects": {
+    "title": "My Projects"
+  },
+  "contactCard": {
+    "title": "Discover My Other Mobile Projects",
+    "description": "I have more impressive mobile projects to show you live! During a Meet session, I'll give you a personalized demonstration and we'll discuss the best approach for your project. As a mobile development expert, I can help bring your vision to life!",
+    "button": "Let's Discuss Your Project!"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "greeting": "Bonjour, je suis",
+  "role": "Développeur Mobile",
+  "description": "🔹 Conception & Développement\nCréation d'applications mobiles performantes et intuitives\nExpertise en développement natif et cross-platform\nIntégration d'APIs, bases de données et gestion des performances\n\n🔹 Expérience & Compétences\nDéveloppement mobile avec Flutter, Android & iOS\nBackend & APIs sécurisés, gestion en temps réel\nUX/UI design & prototypage avec Figma\n\n🔹 Réputation & Feedback Clients\nFreelance depuis 2022 avec des retours clients excellents\nConsultez mes avis et projets réalisés sur Upwork\n\n🔹 Marketing & Publication d'Apps\nOptimisation et monétisation des applications\nPublicité et acquisition d'utilisateurs\nPublication sur Google Play et l'App Store\n\n🎯 Besoin d'une application sur mesure ? Contactez-moi !",
+  "buttons": {
+    "projects": "Voir mes projets",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "upwork": "Upwork"
+  },
+  "skills": {
+    "mobile": "Technologies Mobiles",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Outils & Design",
+    "languages": "Langages de Base",
+    "frameworks": "Frameworks",
+    "databases": "Bases de données",
+    "marketing": "Marketing Digital",
+    "apis": "APIs & Intégrations"
+  },
+  "skillsets": {
+    "mobile": ["Flutter", "Android Native", "Kotlin", "Java", "Swift", "Dart", "XML"],
+    "backend": ["PHP", "Laravel", "Node.js", "Python"],
+    "frontend": ["HTML5", "CSS3", "JavaScript", "React"],
+    "databases": ["SQLite", "Room Database", "Firebase", "MySQL"],
+    "apis": ["Retrofit", "Volley", "REST APIs"],
+    "tools": ["Figma", "Git", "UML", "Agile"],
+    "marketing": ["Google Ads", "App Store", "Play Store"]
+  },
+  "projects": {
+    "title": "Mes Projets"
+  },
+  "contactCard": {
+    "title": "Découvrez Mes Autres Projets Mobile",
+    "description": "J'ai d'autres projets mobiles impressionnants à vous montrer en direct ! Lors d'une réunion Meet, je vous ferai une démonstration personnalisée et nous discuterons de la meilleure approche pour votre projet. En tant qu'expert en développement mobile, je peux vous aider à concrétiser votre vision !",
+    "button": "Discutons de Votre Projet !"
+  }
+}
