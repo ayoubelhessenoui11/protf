@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from 'react';
 type LanguageContextType = {
   language: 'fr' | 'en';
   setLanguage: (lang: 'fr' | 'en') => void;
-  t: (key: string) => string;
+  t: (key: string, options?: { returnObjects?: boolean }) => any;
 };
 
 const translations = {
@@ -366,7 +366,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<'fr' | 'en'>('fr');
 
-  const t = (key: string): string => {
+  const t = (key: string, options?: { returnObjects?: boolean }): any => {
     const keys = key.split('.');
     let value: any = translations[language];
     
@@ -374,7 +374,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       value = value[k];
     }
     
-    return value || key;
+    return options?.returnObjects ? value : (value || key);
   };
 
   return (
