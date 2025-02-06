@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Button, Box, Typography, Link, useTheme, useMediaQuery } from '@mui/material';
+import { AppBar, Toolbar, Button, Box, Typography, useTheme, useMediaQuery } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import LanguageSelector from './LanguageSelector';
